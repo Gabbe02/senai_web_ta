@@ -1,0 +1,78 @@
+body{/*corpo*/
+    width: 100%;/*largura do corpo*/
+    height: 300px;/*altura do corpo*/
+    background-color: black;/*cor do corpo*/
+}
+
+header{/*cabeçalho*/
+    width: 100%;/*largura do cabeçalho*/
+    background-color: #2cda94;/*cor do cabeçalho*/
+}
+header:hover{/*cabeçalho*/
+    border-radius: 20px;/*modificação da borda*/
+}
+.header h1{
+    color: #6481ee;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+.header h2{
+    color: #4b71db;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+.header h3{
+    color: #3261c8;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+.header h4{
+    color: #1951b5;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+.header h5{
+    color: #0041a2;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+.header h6{
+    color:#03398a;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+nav{/*navegação*/
+    width: 100%;/*largura do navegação*/
+    height: 200px;/*altura do navegação*/
+    background-color:#21c783;/*cor do navegação*/
+    display: flex;/*define o elemento em linha*/
+    justify-content: center;/*centralizar*/
+}
+nav:hover{/*navegação*/
+    border-radius: 20px;/*modificação da borda*/
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+section{/*seção*/
+    width: 100%;/*largura do seção*/
+    height: 200px;/*altura do seção*/
+    background-color: #16b572;/*cor do seção*/
+}
+section:hover{/*seção*/
+    border-radius: 20px;/*modificação da borda*/
+}
+
+footer{/*rodape*/
+    width: 100%;/*largura do rodape*/
+    height: 200px;/*altura do rodape*/
+    background-color: #0ba261;/*cor do rodape*/
+}
+footer:hover{/*rodape*/
+    border-radius: 20px;/*modificação da borda*/
+}
